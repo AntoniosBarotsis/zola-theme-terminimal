@@ -79,6 +79,8 @@ post_view_navigation_prompt = "Thanks for reading! Read other posts?"
 # Defaults to false.
 use_full_hack_font = false
 
+remove_hack_font = true
+
 # Optional: Global favicon URL and mimetype.
 #           Mimetype defaults to "image/x-icon".
 #           The URL should point at a file located

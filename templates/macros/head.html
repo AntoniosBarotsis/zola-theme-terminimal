@@ -21,6 +21,8 @@
 
 {%- if config.extra.use_full_hack_font %}
     <link rel="stylesheet" href="{{ get_url(path="font-hack.css", trailing_slash=false) | safe }}">
+{% elif config.extra.remove_hack_font %}
+  <!-- if remove_hack_font -> include no css file -->
 {% else %}
     <link rel="stylesheet" href="{{ get_url(path="font-hack-subset.css", trailing_slash=false) | safe }}">
 {% endif -%}
