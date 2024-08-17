@@ -8,7 +8,9 @@
 See the live demo (of the default configuration) here:
 https://pawroman.github.io/zola-theme-terminimal/
 
-Tested with Zola v0.17.2. Please note that earlier versions might not work because of breaking changes across Zola versions.
+Tested with Zola v0.19.2.
+
+Please note that earlier (and older) versions might not work because of breaking changes across Zola versions.
 
 #### Fork disclaimer
 
@@ -86,7 +88,7 @@ Example:
 
 Same as `image`, but with a few extra optional arguments:
 
-- **`caption`**
+- **`caption`** (supports markdown)
 - **`caption_position`** (center \[default\] | left | right)
 - **`caption_style`**
 
@@ -97,8 +99,8 @@ Example:
           style="width: 25%;",
           position="right",
           caption_position="left",
-          caption="Ferris, the (unofficial) Rust mascot",
-          caption_style="font-weight: bold; font-style: italic;") }}
+          caption="**Ferris**, the (unofficial) Rust mascot",
+          caption_style="font-style: italic;") }}
 ```
 
 ## OpenGraph
